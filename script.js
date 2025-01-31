@@ -17,11 +17,11 @@ const point = {
     size: 20,
     color: "green"
 }
-let score = 0
+let score = 1
 
 function drawPlayer() {
     ctx.fillStyle = player.color;
-    ctx.fillRect(player.x, player.y, player.width, player.height,)
+    ctx.fillRect(player.x, player.y, player.width, player.height*score,)
 }
 
 function drawPoint() {
